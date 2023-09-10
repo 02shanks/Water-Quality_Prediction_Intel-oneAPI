@@ -88,6 +88,10 @@ By leveraging synthetic data, we aimed to enhance the model's ability to make ac
 | XGBoost                     | 3.86 milliseconds                     | 4.64 milliseconds                   |
 | CatBoost                    | 2.69 milliseconds                     | 1.79 milliseconds                   |
 | LightGBM                    | 6.49 milliseconds                     | 3.49 milliseconds                   |
+
+- **Score Comparison**
+- ![Model Performance Comparison using scikit-learn-intelex](images/model_scores_without_scikit-learn-intelex.jpeg)
+- - ![Model Performance Comparison using scikit-learn-intelex](images/model_score_with_scikit-learn-intelex.jpeg)
   
 ## Final Technique: Stacking
 
