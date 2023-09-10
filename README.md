@@ -113,7 +113,7 @@ In our project, we employed a model stacking approach to harness the strengths o
 
 ## References
 
-1. [Modeling Tabular data using Conditional GAN]([https://github.com/sdv-dev/CTGAN](https://arxiv.org/abs/1907.00503))
+1. [Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503)
 2. [DeepInsight](https://alok-ai-lab.github.io/DeepInsight/)
 
 
