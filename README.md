@@ -34,7 +34,7 @@ Short project description here.
 2. **Feature Importance Analysis**: A feature importance analysis was conducted on the dataset using techniques like Random Forest Feature Importance or Gradient Boosting Feature Importance. This analysis helped identify the most relevant features for modeling.
 
 3. **Feature Removal**: Based on the feature importance analysis, less relevant or redundant feature columns were removed to improve the efficiency of the model and reduce the dimensionality of the dataset. The following features where dropped based on its over all feature importance.
-  - ['Source', 'Month']
+- ['Source', 'Month']
 
 ![Feature Importance Analysis](images/feature_importance_lgbm.png)
 
