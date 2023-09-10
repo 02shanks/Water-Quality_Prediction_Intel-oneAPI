@@ -114,15 +114,15 @@ In our project, we employed a model stacking approach to harness the strengths o
 
 In our project, we explored an experimental and unique approach inspired by the "DeepInsight" methodology introduced in the paper titled "DeepInsight: A methodology to transform non-image data into an image for convolution neural network architecture." The paper addresses the challenge of capturing subtle variations in diverse types of data, including genomic and non-genomic, to differentiate phenotypes or categories.
 
-  ### Transforming Non-Image Data into Well-Organized Images
+- **Transforming Non-Image Data into Well-Organized Images**
   
   DeepInsight proposes a groundbreaking concept: the transformation of non-image samples into well-organized image-form representations. This transformation makes it possible to harness the power of convolutional neural networks (CNNs) for data types that were traditionally not amenable to CNN-based analysis. 
 
-  ### Experimental Use Case
+- **Experimental Use Case**
   
   In our project, we adopted the DeepInsight methodology to convert our non-image data into structured image representations. This allowed us to leverage the capabilities of CNNs, including GPU utilization, for a novel and experimental analysis of our dataset. By applying CNNs to non-image samples, we aimed to extract imperative information and explore new avenues for data analysis.
 
-  ### Promising Results
+- **Promising Results**
   
   Our experiment with DeepInsight yielded promising results, showcasing the potential of this innovative approach to unlock hidden patterns and insights within our dataset. While this method may be unconventional, it demonstrates our commitment to exploring cutting-edge techniques in pursuit of deeper understanding and more accurate predictions.
   
