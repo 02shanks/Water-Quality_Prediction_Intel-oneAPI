@@ -1,5 +1,3 @@
-# classical_ml_project
-
 # Leveraging Intel® oneAPI Libraries for Intelligent Water Quality Prediction with AI Stacking Ensemble
 
 Short project description here.
