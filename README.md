@@ -111,10 +111,6 @@ In our project, we employed a model stacking approach to harness the strengths o
 
 - Accuracy 0.89
 
-## Final Results
-
-Share the key results and metrics obtained from your models. This could include accuracy, precision, recall, F1-score, or any domain-specific metrics. You can also include visualizations like confusion matrices or ROC curves to illustrate your results.
-
 ## References
 
 1. [Modeling Tabular data using Conditional GAN]([https://github.com/sdv-dev/CTGAN](https://arxiv.org/abs/1907.00503))
