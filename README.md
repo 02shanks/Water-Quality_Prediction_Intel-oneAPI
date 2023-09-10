@@ -103,10 +103,13 @@ In our project, we employed a model stacking approach to harness the strengths o
 - BaggingClassifier
 - DecisionTreeClassifier
 
-Each of these classifiers brings its own unique capabilities to the ensemble, allowing us to improve prediction accuracy and robustness. We carefully fine-tuned their hyperparameters and leveraged their individual strengths to create a powerful ensemble model.
+## Stacking Model Performance
+|     | precision  | recall | f1-score |
+|-----|------------|--------|----------|
+| 0   | 0.99       | 0.82   | 0.89     |
+| 1   | 0.80       | 0.98   | 0.89     |
 
-This approach was chosen to benefit from the diversity of models and their ability to capture different aspects of the data, ultimately leading to more accurate and reliable predictions.
-
+- Accuracy 0.89
 
 ## Final Results
 
