@@ -35,6 +35,8 @@ Short project description here.
 
 3. **Feature Removal**: Based on the feature importance analysis, less relevant or redundant feature columns were removed to improve the efficiency of the model and reduce the dimensionality of the dataset.
 
+![Feature Importance Analysis](images/feature_importance_lgbm.png)
+
 ### Feature Imputation Steps:
 
 1. **Categorical Data Handling**: Categorical data was handled by applying one-hot encoding to convert categorical variables into numerical format.
