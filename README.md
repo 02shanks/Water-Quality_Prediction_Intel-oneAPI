@@ -92,9 +92,21 @@ By leveraging synthetic data, we aimed to enhance the model's ability to make ac
   - ![Model Performance Comparison using scikit-learn-intelex](images/model_scores_without_scikit-learn-intelex.jpeg)
   - ![Model Performance Comparison using scikit-learn-intelex](images/model_score_with_scikit-learn-intelex.jpeg)
   
-## Final Technique: Stacking
+## Final Technique: Model Stacking
 
-Explain the final technique used, such as model stacking, ensemble methods, or any other advanced techniques. Provide details on how these models were combined and why this approach was chosen.
+In our project, we employed a model stacking approach to harness the strengths of multiple classifiers. The following classifiers were used in our stacking ensemble:
+
+- CatBoostClassifier
+- TabNetClassifier
+- LGBMClassifier
+- XGBClassifier
+- BaggingClassifier
+- DecisionTreeClassifier
+
+Each of these classifiers brings its own unique capabilities to the ensemble, allowing us to improve prediction accuracy and robustness. We carefully fine-tuned their hyperparameters and leveraged their individual strengths to create a powerful ensemble model.
+
+This approach was chosen to benefit from the diversity of models and their ability to capture different aspects of the data, ultimately leading to more accurate and reliable predictions.
+
 
 ## Final Results
 
@@ -102,5 +114,7 @@ Share the key results and metrics obtained from your models. This could include 
 
 ## References
 
-List any references, research papers, or libraries you used in your project. Properly cite any external sources to give credit to the authors and maintain good academic practice.
+1. [Modeling Tabular data using Conditional GAN]([https://github.com/sdv-dev/CTGAN](https://arxiv.org/abs/1907.00503))
+2. [DeepInsight](https://alok-ai-lab.github.io/DeepInsight/)
+
 
