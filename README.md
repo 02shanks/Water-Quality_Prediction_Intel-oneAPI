@@ -77,14 +77,13 @@ By leveraging synthetic data, we aimed to enhance the model's ability to make ac
 
 ## Various Models Used
 
-List and briefly describe the various machine learning models you experimented with. For example:
+| Model Name                  | Time (with scikit-learn-intelex)      | Time (without scikit-learn-intelex) | 
+|-----------------------------|---------------------------------------|-------------------------------------|
+| RandomForestClassifier      | 3.2 milliseconds                      | 19.4 milliseconds                   |
+| BaggingClassifier           | 4.2 milliseconds                      | 3.53 milliseconds                   |
+| AdaboostClassifier          | 20.9 milliseconds                     | 32.2 milliseconds                   |
+| GradientBoostingClassifier  | 4.1 milliseconds                      | 1.39 milliseconds                   |
 
-- Random Forest
-  - Parameters used: [list of hyperparameters]
-- Support Vector Machine
-  - Parameters used: [list of hyperparameters]
-- Neural Network
-  - Architecture: [brief description]
   
 ## Final Technique: Stacking
 
