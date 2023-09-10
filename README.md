@@ -75,7 +75,7 @@ The need for synthetic data arose from the substantial class imbalance in the or
 By leveraging synthetic data, we aimed to enhance the model's ability to make accurate predictions on underrepresented classes, ultimately improving the overall model performance and fairness.
 
 
-## Various Models Used
+## Model Performance Comparison using scikit-learn-intelex
 
 | Model Name                  | Time (with scikit-learn-intelex)      | Time (without scikit-learn-intelex) | 
 |-----------------------------|---------------------------------------|-------------------------------------|
@@ -83,7 +83,11 @@ By leveraging synthetic data, we aimed to enhance the model's ability to make ac
 | BaggingClassifier           | 4.2 milliseconds                      | 3.53 milliseconds                   |
 | AdaboostClassifier          | 20.9 milliseconds                     | 32.2 milliseconds                   |
 | GradientBoostingClassifier  | 4.1 milliseconds                      | 1.39 milliseconds                   |
-
+| ExtraTreesClassifier        | 15 milliseconds                       | 22.4 milliseconds                   |
+| SVM Classifier              | 10.1 milliseconds                     | 21.4 milliseconds                   |
+| XGBoost                     | 3.86 milliseconds                     | 4.64 milliseconds                   |
+| CatBoost                    | 2.69 milliseconds                     | 1.79 milliseconds                   |
+| LightGBM                    | 6.49 milliseconds                     | 3.49 milliseconds                   |
   
 ## Final Technique: Stacking
 
