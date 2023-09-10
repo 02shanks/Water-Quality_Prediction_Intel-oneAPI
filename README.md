@@ -49,9 +49,9 @@ Short project description here.
 
 4. **Columns with Imputed Values**: Below is the list of columns where imputation was performed, along with the method used for each:
    - Mean Imputation:
-     - [List of columns]
+     - ['pH','Air Temperature']
    - Median Imputation:
-     - [List of columns]
+     - ['Iron', 'Nitrate', 'Chloride', 'Lead', 'Zinc' , 'Turbidity', 'Fluoride', 'Copper', 'Total Dissolved Solids', 'Water Temperature','Chlorine', 'Conductivity', 'Sulfate', 'Odor', 'Manganese', 'Day', 'Time of Day']
 
 The decision to use univariate imputation techniques like mean and median was made based on the data characteristics and the small number of missing values, which eliminated the need for more advanced techniques such as MICE.
 
