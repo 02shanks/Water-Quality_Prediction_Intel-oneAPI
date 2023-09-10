@@ -14,14 +14,15 @@ Short project description here.
 
 ## Tech Stack Used
 
-- **Programming Language**: Python 3.x
-- **Libraries**: 
-  - Pandas
-  - NumPy
-  - Scikit-learn
-  - Matplotlib
-  - Seaborn
-  - [Any other libraries or frameworks used]
+- **Programming Language**: Python
+- **Libraries**:
+  - scikit-learn-intelex
+  - modin 
+  - ctgan
+  - hyperopt
+  - pyDeepInsight
+  
+
 
 ## Feature Selection and Imputation
 
