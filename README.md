@@ -59,11 +59,21 @@ The decision to use univariate imputation techniques like mean and median was ma
 
 ## Synthetic Data Generation
 
-If you used synthetic data to augment your dataset, explain the approach you took. This might include:
+### Synthetic Data Using CTGAN Model
 
-- Generating synthetic data using libraries like `imbalanced-learn` or `faker`.
-- Using data augmentation techniques for image data.
-- Creating synthetic data to address class imbalance.
+To address the challenge of a highly imbalanced dataset, synthetic data was generated using the CTGAN (Conditional Tabular GAN) model. CTGAN is a state-of-the-art generative adversarial network (GAN) specifically designed for generating synthetic tabular data. It learns the underlying data distribution and generates synthetic samples that closely resemble the original data while preserving statistical properties.
+
+CTGAN was chosen for synthetic data generation due to its ability to:
+
+- Balance the class distribution in the dataset, effectively addressing class imbalance issues.
+- Generate synthetic data that captures the intricate relationships between features present in the original dataset.
+
+### Use Case for Synthetic Data
+
+The need for synthetic data arose from the substantial class imbalance in the original dataset. By generating synthetic samples with CTGAN, we balanced the class distribution, creating a more representative and balanced dataset. This balanced dataset was then used for training machine learning models, improving their performance and generalization.
+
+By leveraging synthetic data, we aimed to enhance the model's ability to make accurate predictions on underrepresented classes, ultimately improving the overall model performance and fairness.
+
 
 ## Various Models Used
 
