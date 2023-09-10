@@ -128,7 +128,7 @@ In our project, we explored an experimental and unique approach inspired by the 
   
   To our knowledge, this project represents one of the pioneering efforts to apply the DeepInsight methodology to our specific domain, further highlighting our dedication to pushing the boundaries of data analysis.
   
-  We achieved accracy of 88.7% which is comparative to stacking model.
+  We achieved accuracy of 88.7% which is comparative to stacking model.
 
 ## References
 
